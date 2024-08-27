@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("book.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 100% 100%; 
+   height: auto;
+}
+
+.container {
+ 
+    width:auto;
+    height: 100vh;
+    padding: 40px;
+    text-align: center;
+    justify-content: center;
+  
+}
+
+.todolist {
+    width: 550px; /* adjust the width to your liking */
+   margin-left: 30%;
+    height: auto; /* set the height to 100vh to center vertically */
+    border: 2px solid rgb(41, 153, 201);
+    box-shadow: -5px -5px 10px grey;
+
+    border-radius: 10px;
+    background-color:inherit; 
+ 
+}
+h1{
+    color: white;
+}
+#task-input {
+    width: 75%;
+    height: 15px;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#add-task-btn {
+    width: 100px;
+    height: 37px;
+    font-size: 18px;
+    background-color: #44338b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#add-task-btn:hover {
+    background-color: #2cc3e6;
+}
+
+#task-list {
+    color: white;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+.task-text {
+    flex: 1;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
